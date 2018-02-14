@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The Spider-Man Quiz</title>
+
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Dhurjati" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="start-page" style="display: none;">
+
+      <header>
+        <h1>THE SPIDER-MAN QUIZ</h1>
+      </header>
+      <center><img src="https://68.media.tumblr.com/643a9b27bb46c997d3549e01849959bc/tumblr_p0wf8sv1o31wl0olto1_540.png" class="front-img"></center>
+
+      <h3>Think you know Spider-Man?</h3>
+
+      Take this quiz to test your knowledge on everybody's favorite web-crawler!
+
+      <form class="game-start">
+        <button type="submit">Let's go!</button>
+      </form>
+    </div>
+
+
+
+    <div class="questions-page" style="display: none;">
+      <span class="question-count"></span> <img src="https://68.media.tumblr.com/80cc72d775a28acf025b4774cc6b229f/tumblr_p0wf6ozB3X1wl0olto1_1280.png" class="spider"> <span class="question-text"></span>
+      <form name="current-question">
+        <ol type="A" class="choices"></ol>
+        <center><button type="submit">Submit</button>
+          <button class="restart-game">Restart</button></center>
+      </form>
+    </div>
+
+
+
+    <div class="answer-feedback-page" style="display: none;">
+      <div class="feedback-container">
+        <div class="feedback-header"></div>
+        <p class="feedback-text"></p>
+        <button class="see-next"></button>
+      </div>
+    </div>
+
+
+    <div class="final-feedback-page" style="display: none;">
+      <h1>Results</h1>
+      <img src="https://68.media.tumblr.com/2b05456fc791f84c6377ce4a01023a80/tumblr_p0wfb6nOpI1wl0olto1_1280.png" class="results-img">
+      <p class="results-text"></p>
+      <center><button class="restart-game">Try Again</button></center>
+    </div>
+
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>

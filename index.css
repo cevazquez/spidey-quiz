@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+  background-image: url("https://78.media.tumblr.com/e10e3af0a83fdb96f344712f00361b5d/tumblr_p0wffc3RWY1wl0olto1_1280.jpg");
+  background-repeat: repeat;
+	background-color: red;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+	text-align: center;
+}
+
+
+.container {
+	background-color: rgba(0,122,192,0.7);
+	color: white;
+	border: yellow 5px solid;
+	border-radius: 20px;
+	font-size: 20px;
+  width:800px;
+  max-height: 100%;
+}
+
+.start-page {
+  text-align: center;
+}
+
+.game-start {
+  padding-top: 30px;
+}
+
+button {
+	width: auto;
+	background-color: rgb(0,122,192);
+	color: white;
+	border-radius: 5px;
+	border: 1px solid white;
+	font-size: 19px;
+	margin-bottom: 20px;
+}
+
+button:hover {
+	background-color: yellow;
+}
+
+h1 {
+  font-family: 'Dhurjati', sans-serif;
+  color: yellow;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.question-count, .question-text, .current-question {
+  color: yellow;
+  font-family: 'Dhurjati', sans-serif;
+  font-size: 25px;
+}
+
+.question-text {
+  line-height: 0;
+}
+
+.answer-feedback-page {
+  text-align: center;
+}
+
+.front-img {
+  max-width:30%;
+  max-height:30%;
+}
+
+.questions-page {
+  padding-left: 10px;
+}
+
+.final-feedback-page {
+  text-align: center;
+}
+
+.results-img {
+  max-width: 500px;
+}
+
+.spider {
+  width: 3.5%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .container {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .front-img {
+    max-width: 200px;
+  }
+
+  .results-img {
+    max-width: 200px;
+  }
+}
